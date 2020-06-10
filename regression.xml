@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite">
+  <test name="Home_Test">
+    <classes>
+      <class name="Demo_TestNG.Demo_TestNg.TC_Home"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login_Test">
+    <classes>
+    <class name="Demo_TestNG.Demo_TestNg.TC_Login">
+    <methods> <!-- 30 test cases in a file. 1 -->
+    <!-- 
+    <include name = "TC_Login_01"/>
+    <include name = "TC_Login_02"/>
+    <include name = "TC_Login_04"/> 
+    ctrl+shift+/ -->
+    
+    <!-- <exclude name="TC_Login_03"/> -->
+    
+    <include name = "TC_Login_04"/>
+    </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity_Suite" duration-ms="265" started-at="2020-06-10T18:58:24Z" finished-at="2020-06-10T18:58:25Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_Login_Group.TC_Login_01()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Login_Group@131a7516]" name="TC_Login_01" class="Demo_TestNG.Demo_TestNg.TC_Login_Group"/>
+        <method signature="TC_Login_Group.TC_Login_03()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Login_Group@131a7516]" name="TC_Login_03" class="Demo_TestNG.Demo_TestNg.TC_Login_Group"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_Home_Group.TC_Home_02()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Home_Group@2d5a1588]" name="TC_Home_02" class="Demo_TestNG.Demo_TestNg.TC_Home_Group"/>
+        <method signature="TC_Login_Group.TC_Login_03()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Login_Group@131a7516]" name="TC_Login_03" class="Demo_TestNG.Demo_TestNg.TC_Login_Group"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Home_Test" duration-ms="69" started-at="2020-06-10T18:58:24Z" finished-at="2020-06-10T18:58:25Z">
+      <class name="Demo_TestNG.Demo_TestNg.TC_Home_Group">
+        <test-method status="PASS" signature="TC_Home_02()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Home_Group@2d5a1588]" name="TC_Home_02" duration-ms="29" started-at="2020-06-11T00:28:24Z" finished-at="2020-06-11T00:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_02 -->
+      </class> <!-- Demo_TestNG.Demo_TestNg.TC_Home_Group -->
+    </test> <!-- Home_Test -->
+    <test name="Login_Test" duration-ms="59" started-at="2020-06-10T18:58:25Z" finished-at="2020-06-10T18:58:25Z">
+      <class name="Demo_TestNG.Demo_TestNg.TC_Login_Group">
+        <test-method status="PASS" signature="TC_Login_01()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Login_Group@131a7516]" name="TC_Login_01" duration-ms="1" started-at="2020-06-11T00:28:25Z" finished-at="2020-06-11T00:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_01 -->
+        <test-method status="PASS" signature="TC_Login_03()[pri:0, instance:Demo_TestNG.Demo_TestNg.TC_Login_Group@131a7516]" name="TC_Login_03" duration-ms="57" started-at="2020-06-11T00:28:25Z" finished-at="2020-06-11T00:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_03 -->
+      </class> <!-- Demo_TestNG.Demo_TestNg.TC_Login_Group -->
+    </test> <!-- Login_Test -->
+  </suite> <!-- Sanity_Suite -->
+</testng-results>
